@@ -1,3 +1,6 @@
+## 📂 Project Structure
+
+```bash
 my-portfolio/
 ├── app/                       # Core App Router
 │   ├── layout.tsx             # Root layout (Navbar/Footer here)
