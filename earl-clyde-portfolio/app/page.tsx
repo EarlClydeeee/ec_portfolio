@@ -51,7 +51,8 @@ export default function EarlClydePortfolio() {
           </h2>
         </div>
       </section>
-      
+
+      {/* Education Section */}
       <section className="h-screen flex items-center justify-center bg-black text-white relative overflow-hidden">
         <div className="w-full text-6xl md:text-[11rem] lg:text-[15rem] pt-8 md:pt-16 lg:pt-24">
           <h2 className="font-black text-white leading-none tracking-tight relative" style={{ 
@@ -63,7 +64,21 @@ export default function EarlClydePortfolio() {
             tion
           </h2>
         </div>
+        <div className="text-center bg-black text-white absolute" style={{
+          left: "450px",
+          bottom: "350px",
+        }}>
+          <h3 className="text-6xl md:text-[11rem] lg:text-[15rem] font-black leading-none tracking-tight text-white" style={{ 
+            transform: "rotate(-30deg) scaleY(1.7)",
+            transformOrigin: "bottom",
+          }}>
+              educa
+          </h3>
+        </div>
       </section>
+      
+
+        
       
 
       {/* Personal Skills Section */}
