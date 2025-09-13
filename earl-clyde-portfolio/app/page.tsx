@@ -6,14 +6,19 @@ export default function EarlClydePortfolio() {
   return (
     <div className="min-h-screen bg-white">
       {/* Header Section */}
-      <section className="h-screen flex items-center justify-center bg-white">
-        <div className="text-center">
-          <h1 className="text-8xl md:text-9xl lg:text-[12rem] font-black text-black leading-none tracking-tighter">
+      <section className="h-screen flex items-start justify-start bg-white pt-8 pb-8 pr-8 md:pt-16 md:pb-16 md:pr-16 lg:pt-24 lg:pb-24 lg:pr-24">
+        <div className="w-full pt-8 md:pt-16 lg:pt-24">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-black leading-none tracking-tighter mb-8 relative" style={{ top: "70px" }}>
             WORLD OF
           </h1>
-          <h1 className="text-8xl md:text-9xl lg:text-[12rem] font-black text-black leading-none tracking-tighter -mt-4">
-            EARL CLYDE
-          </h1>
+          <div className="flex justify-between items-start">
+            <h1 className="text-9xl md:text-[10rem] lg:text-[14rem] xl:text-[16rem] font-black text-black leading-none tracking-tighter relative" style={{ left: "-18px" }}>
+              EARL
+            </h1>
+            <h1 className="text-9xl md:text-[10rem] lg:text-[14rem] xl:text-[16rem] font-black text-black leading-none tracking-tighter relative" style={{ left: "-18px" }}>
+              CLYDE
+            </h1>
+          </div>
         </div>
       </section>
 
