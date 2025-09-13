@@ -34,7 +34,7 @@ export default function EarlClydePortfolio() {
       <section className="h-screen flex items-start justify-start bg-white pt-8 pb-8 pr-8 md:pt-16 md:pb-16 md:pr-16 lg:pt-24 lg:pb-24 lg:pr-24">
         <div className="w-full text-6xl md:text-[11rem] lg:text-[15rem] pt-8 md:pt-16 lg:pt-24">
           <h2 className="font-black text-black leading-none tracking-tight relative" style={{ 
-            top: "435px",
+            top: "350px",
             transform: "scaleY(1.7)",
             transformOrigin: "bottom"
           }}>
@@ -51,15 +51,34 @@ export default function EarlClydePortfolio() {
           </h2>
         </div>
       </section>
-      
-      <section className="h-screen flex items-center justify-center bg-black text-white relative overflow-hidden">
-        <div className="text-center relative z-10">
-          <h2 className="text-6xl md:text-7xl lg:text-8xl font-black leading-none tracking-tight mb-8">
-          tion
-          </h2>
 
+      {/* Education Section */}
+      <section className="h-screen flex items-center justify-center bg-black text-white relative overflow-hidden">
+        <div className="w-full text-6xl md:text-[11rem] lg:text-[15rem] pt-8 md:pt-16 lg:pt-24">
+          <h2 className="font-black text-white leading-none tracking-tight relative" style={{ 
+            left: "1050px",
+            bottom: "400px",
+            transform: "scaleY(1.7)",
+            transformOrigin: "bottom"
+          }}>
+            tion
+          </h2>
+        </div>
+        <div className="text-center bg-black text-white absolute" style={{
+          left: "450px",
+          bottom: "350px",
+        }}>
+          <h3 className="text-6xl md:text-[11rem] lg:text-[15rem] font-black leading-none tracking-tight text-white" style={{ 
+            transform: "rotate(-30deg) scaleY(1.7)",
+            transformOrigin: "bottom",
+          }}>
+              educa
+          </h3>
         </div>
       </section>
+      
+
+        
       
 
       {/* Personal Skills Section */}
