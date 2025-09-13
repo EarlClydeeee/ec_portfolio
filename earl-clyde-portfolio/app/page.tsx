@@ -113,13 +113,31 @@ export default function EarlClydePortfolio() {
       {/* Works Through Life Section */}
       <section className="h-screen flex items-center justify-start bg-white pl-8 md:pl-16 lg:pl-24">
         <div>
-          <h2 className="text-6xl md:text-7xl lg:text-8xl font-black leading-none tracking-tight bg-gradient-to-r from-black to-gray-400 bg-clip-text text-transparent">
+          <h2 className="text-6xl md:text-7xl lg:text-8xl font-black leading-none tracking-tight bg-gradient-to-r from-black to-gray-400 bg-clip-text text-transparent"
+          style={{
+            left: "100px",
+            bottom: "20px",
+            transform: "scaleY(1.9)",
+            transformOrigin: "bottom"
+          }}>
             works
           </h2>
-          <h2 className="text-6xl md:text-7xl lg:text-8xl font-black leading-none tracking-tight bg-gradient-to-r from-black to-gray-400 bg-clip-text text-transparent">
+          <h2 className="text-6xl md:text-7xl lg:text-8xl font-black leading-none tracking-tight bg-gradient-to-r from-black to-gray-400 bg-clip-text text-transparent"
+          style={{
+            left: "100px",
+            bottom: "20px",
+            transform: "scaleY(1.9)",
+            transformOrigin: "bottom"
+          }}>
             through
           </h2>
-          <h2 className="text-6xl md:text-7xl lg:text-8xl font-black leading-none tracking-tight bg-gradient-to-r from-black to-gray-400 bg-clip-text text-transparent">
+          <h2 className="text-6xl md:text-7xl lg:text-8xl font-black leading-none tracking-tight bg-gradient-to-r from-black to-gray-400 bg-clip-text text-transparent"
+          style={{
+            left: "100px",
+            bottom: "20px",
+            transform: "scaleY(1.9)",
+            transformOrigin: "bottom"
+          }}>
             life
           </h2>
         </div>
