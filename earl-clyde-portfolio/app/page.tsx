@@ -84,11 +84,11 @@ export default function EarlClydePortfolio() {
       {/* Personal Skills Section */}
       <section className="h-screen flex items-center justify-start bg-[#D9D9D9] pl-8 md:pl-16 lg:pl-24">
         <div>
-          <h2 className="text-6xl md:text-7xl lg:text-8xl font-black text-white leading-none tracking-tight transform -rotate-90 origin-left relative" 
+          <h2 className="text-6xl md:text-7xl lg:text-8xl text-black font-black text-white leading-none tracking-tight transform -rotate-90 origin-left relative" 
             style={{
             left: "-290px",
             bottom: "45px",
-            transform: "scaleY(1.7)",
+            transform: "scaleY(1.9)",
             transformOrigin: "bottom"
           }}> 
             personal skills
