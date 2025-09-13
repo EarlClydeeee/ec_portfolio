@@ -32,7 +32,7 @@ export default function EarlClydePortfolio() {
 
       {/* Introduction Section */}
       <section className="h-screen flex items-start justify-start bg-white pt-8 pb-8 pr-8 md:pt-16 md:pb-16 md:pr-16 lg:pt-24 lg:pb-24 lg:pr-24">
-        <div className="w-full text-7xl md:text-8xl lg:text-9xl pt-8 md:pt-16 lg:pt-24">
+        <div className="w-full text-6xl md:text-[11rem] lg:text-[15rem] pt-8 md:pt-16 lg:pt-24">
           <h2 className="font-black text-black leading-none tracking-tight relative" style={{ 
             top: "435px",
             transform: "scaleY(1.7)",
@@ -41,16 +41,23 @@ export default function EarlClydePortfolio() {
             introduc
           </h2>
         </div>
+        <div className="w-full text-6xl md:text-[11rem] lg:text-[15rem] pt-8 md:pt-16 lg:pt-24">
+          <h2 className="font-black text-black leading-none tracking-tight relative" style={{ 
+            top: "435px",
+            transform: "scaleY(1.7)",
+            transformOrigin: "bottom"
+          }}>
+            tion
+          </h2>
+        </div>
       </section>
       
       <section className="h-screen flex items-center justify-center bg-black text-white relative overflow-hidden">
         <div className="text-center relative z-10">
           <h2 className="text-6xl md:text-7xl lg:text-8xl font-black leading-none tracking-tight mb-8">
-            introduction
+          tion
           </h2>
-          <h3 className="text-4xl md:text-5xl lg:text-6xl font-black leading-none tracking-tight transform rotate-12 text-white">
-            CLYDE
-          </h3>
+
         </div>
       </section>
       
