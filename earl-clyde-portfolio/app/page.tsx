@@ -97,10 +97,15 @@ export default function EarlClydePortfolio() {
       </section>
 
       {/* Work Experience Section */}
-      <section className="h-screen flex items-center justify-center bg-black text-white">
+      <section className="h-screen flex items-center justify-center bg-[#232323] text-white">
         <div className="text-center">
-          <h2 className="text-6xl md:text-7xl lg:text-8xl font-black leading-none tracking-tight">
-            work experience
+          <h2 className="text-6xl md:text-7xl lg:text-8xl font-black text-white leading-none tracking-tight relative" style={{
+            right: "-480px",
+            bottom: "250px",
+            transform: "scaleY(1.9)",
+            transformOrigin: "bottom"
+          }}> 
+            experience
           </h2>
         </div>
       </section>
